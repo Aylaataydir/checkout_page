@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="container">
+
+        <section class="products">
+           
+            <div class="product">
+                <img src="images/1.jpg" alt="serum">
+                <div class="product-info">
+                    <h3>SERUM</h3>
+                    <p>LIEBER NATUR<br>Hyaluron Serum Anti Aging </p>
+                    <div class="piece">
+                        <i class="fa-solid fa-minus"></i>
+                        <p class="piece-number"  >1</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <p class="remove">Remove</p>
+                </div>
+                <p class="flex-right">$<span class="product-price" data-price="29.99"  >29.99</span></p>
+            </div>
+            
+            <div class="product">
+                <img src="images/3.jpg" alt="perfume">
+                <div class="product-info">
+                    <h3>PERFUME</h3>
+                    <p>JO MALONE london<br>Sea Daffodil Cologne</p>
+                    <div class="piece">
+                        <i class="fa-solid fa-minus"></i>
+                        <p class="piece-number">1</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <p class="remove">Remove</p>
+                </div>
+                <p class="flex-right" >$<span class="product-price" data-price="109.99">109.99</span></p>
+            </div>
+            
+            <div class="product">
+                <img src="images/5.jpg" alt="serum">
+                <div class="product-info">
+                    <h3>BODY SPRAY</h3>
+                    <p>KAMA AYURVEDA <br> Natural Insect Deterrent Body Spray</p>
+                    <div class="piece">
+                        <i class="fa-solid fa-minus"></i>
+                        <p class="piece-number"  >1</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <p class="remove">Remove</p>
+                </div>
+                <p class="flex-right" >$<span class="product-price" data-price="24.99" >24.99</span></p>
+            </div>
+            
+            <div class="product">
+                <img src="images/6.jpg" alt="serum">
+                <div class="product-info">
+                    <h3>SOAP</h3>
+                    <p>CALENDULA & MEL <br>Soap 100g </p>
+                    <div class="piece">
+                        <i class="fa-solid fa-minus"></i>
+                        <p class="piece-number" >1</p>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <p class="remove">Remove</p>
+                </div>
+                <p class="flex-right" >$<span class="product-price" data-price="13.99" >13.99</span></p>
+            </div>
+            
+
+        </section>
+        <section class="order-summary">
+           <h2>Order summary</h2>
+           <div class="price-section">
+           <p>Subtotal</p>
+           <p  >$<span id="subtotal-price" >0</span></p>
+           </div>
+           <hr>
+           <div class="price-section">
+           <p id="tax-text" >Tax(%18)</p>
+           <p  >$<span id="tax-price" >0</span></p>
+           </div>
+           <hr>
+           <div class="price-section">
+           <p id="shipping-text" >Shipping</p>
+           <p  >$<span id="shipping-price" >0</span></p>
+           </div>
+           <hr>
+           <div class="price-section">
+           <p class="total" ><strong>Total</strong></p>
+           <p class="total" >$<span class="total-price">0</span></p>
+           </div>
+           <hr>
+           <button >Confirm Order</button>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
